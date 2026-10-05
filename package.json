@@ -1,0 +1,55 @@
+{
+  "name": "flyrank-capstone-image-relevance",
+  "version": "0.2.0",
+  "description": "AI Image Understanding & Content Matching Engine - FlyRank Capstone",
+  "main": "dist/server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "db:migrate": "tsx db/migrate.ts",
+    "dataset:validate": "tsx data/validate.ts",
+    "dataset:ingest": "tsx data/ingest.ts",
+    "worker": "tsx src/workers/runWorker.ts",
+    "benchmark": "tsx scripts/benchmark.ts",
+    "verify:e2e": "tsx scripts/verify-e2e.ts",
+    "probes": "tsx scripts/run-probes.ts"
+  },
+  "keywords": [
+    "flyrank",
+    "capstone",
+    "image-relevance",
+    "vision-ai",
+    "vector-search",
+    "mismatch-guard",
+    "express",
+    "typescript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^18.0.5",
+    "express": "^5.2.1",
+    "pg": "^8.23.1",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.6.4",
+    "@types/pg": "^8.23.1",
+    "eslint": "^10.12.0",
+    "prettier": "^3.9.9",
+    "tsx": "^4.23.15",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.71.0",
+    "vitest": "^4.1.11"
+  }
+}

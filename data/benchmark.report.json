@@ -1,0 +1,211 @@
+{
+  "timestamp": "2026-10-05T20:06:03.581Z",
+  "totalLabeledPosts": 12,
+  "correctTop1Matches": 12,
+  "incorrectMatches": 0,
+  "noMatchCases": 0,
+  "measuredTop1Precision": 1,
+  "targetPrecisionFloor": 0.8,
+  "targetMet": true,
+  "provisionalThresholdUsed": 0.72,
+  "confidenceFloorUsed": 0.7,
+  "evaluations": [
+    {
+      "postId": "dbec61eb-ef73-417a-b792-98e518d561d7",
+      "title": "The Cunning Red Fox: Survival in Temperate Woodlands",
+      "expectedCategory": "wildlife",
+      "expectedSubject": "red fox",
+      "expectedFilename": "wildlife/wildlife_01_red_fox.jpg",
+      "matchedImageId": "0d61305e-5c1a-4721-adb6-63ae3c2b68fb",
+      "matchedCategory": "wildlife",
+      "matchedSubject": "red fox",
+      "similarityScore": 0.995,
+      "isCorrect": true,
+      "rejectionReasonsObserved": [
+        "SUBJECT_CONFLICT",
+        "SIMILARITY_BELOW_THRESHOLD",
+        "CATEGORY_MISMATCH"
+      ]
+    },
+    {
+      "postId": "9e751775-69e6-4b3e-b8ca-367037d670a5",
+      "title": "The Social Hierarchy and Winter Stalking of the Gray Wolf Pack",
+      "expectedCategory": "wildlife",
+      "expectedSubject": "gray wolf",
+      "expectedFilename": "wildlife/wildlife_02_gray_wolf.jpg",
+      "matchedImageId": "383df6eb-bac7-46bf-9b26-0caec210b5b7",
+      "matchedCategory": "wildlife",
+      "matchedSubject": "gray wolf",
+      "similarityScore": 0.9943,
+      "isCorrect": true,
+      "rejectionReasonsObserved": [
+        "SUBJECT_CONFLICT",
+        "SIMILARITY_BELOW_THRESHOLD",
+        "CATEGORY_MISMATCH"
+      ]
+    },
+    {
+      "postId": "4d1d2344-671a-48db-a396-c7e6afdb8b89",
+      "title": "Foraging Habits of North American Brown Bears During Salmon Runs",
+      "expectedCategory": "wildlife",
+      "expectedSubject": "brown bear",
+      "expectedFilename": "wildlife/wildlife_03_brown_bear.jpg",
+      "matchedImageId": "0e9c78ba-487e-4a87-bd31-d1f7c979c432",
+      "matchedCategory": "wildlife",
+      "matchedSubject": "brown bear",
+      "similarityScore": 0.9942,
+      "isCorrect": true,
+      "rejectionReasonsObserved": [
+        "SIMILARITY_BELOW_THRESHOLD",
+        "CATEGORY_MISMATCH"
+      ]
+    },
+    {
+      "postId": "ae3eacd3-daec-4f84-ad9d-68e2a1ffae23",
+      "title": "Playful River Otters: Agility and Fishing in Freshwater Streams",
+      "expectedCategory": "wildlife",
+      "expectedSubject": "river otter",
+      "expectedFilename": "wildlife/wildlife_04_river_otter.jpg",
+      "matchedImageId": "c3e6eb1b-e9e4-4756-a725-0647a14684d8",
+      "matchedCategory": "wildlife",
+      "matchedSubject": "river otter",
+      "similarityScore": 0.9942,
+      "isCorrect": true,
+      "rejectionReasonsObserved": [
+        "SIMILARITY_BELOW_THRESHOLD",
+        "CATEGORY_MISMATCH"
+      ]
+    },
+    {
+      "postId": "2e667ae9-c69a-40fc-a83e-2b48cf46185d",
+      "title": "The Science of Pulling the Perfect Dark Espresso Shot",
+      "expectedCategory": "culinary",
+      "expectedSubject": "espresso coffee",
+      "expectedFilename": "culinary/culinary_01_espresso.jpg",
+      "matchedImageId": "40659841-5256-4fbd-a74d-7b0a9bed1902",
+      "matchedCategory": "culinary",
+      "matchedSubject": "espresso coffee",
+      "similarityScore": 0.9944,
+      "isCorrect": true,
+      "rejectionReasonsObserved": [
+        "CATEGORY_MISMATCH",
+        "SUBJECT_CONFLICT",
+        "SIMILARITY_BELOW_THRESHOLD"
+      ]
+    },
+    {
+      "postId": "d9f92129-c7bc-449b-9ecf-f4a8a69ca585",
+      "title": "Traditional Japanese Matcha: Bamboo Whisking and Green Tea Aesthetics",
+      "expectedCategory": "culinary",
+      "expectedSubject": "matcha tea",
+      "expectedFilename": "culinary/culinary_02_matcha.jpg",
+      "matchedImageId": "f3a945af-7e68-4b59-a127-6751a08ea818",
+      "matchedCategory": "culinary",
+      "matchedSubject": "matcha tea",
+      "similarityScore": 0.9944,
+      "isCorrect": true,
+      "rejectionReasonsObserved": [
+        "CATEGORY_MISMATCH",
+        "SUBJECT_CONFLICT",
+        "SIMILARITY_BELOW_THRESHOLD"
+      ]
+    },
+    {
+      "postId": "e4f14bb1-8c16-4af3-be39-bda2e040df10",
+      "title": "The Secrets of Wood-Fired Neapolitan Pizza Fermentation",
+      "expectedCategory": "culinary",
+      "expectedSubject": "neapolitan pizza",
+      "expectedFilename": "culinary/culinary_04_pizza.jpg",
+      "matchedImageId": "d0db6de3-1b09-465b-a75a-4d16c14a02c4",
+      "matchedCategory": "culinary",
+      "matchedSubject": "neapolitan pizza",
+      "similarityScore": 0.9943,
+      "isCorrect": true,
+      "rejectionReasonsObserved": [
+        "CATEGORY_MISMATCH",
+        "SIMILARITY_BELOW_THRESHOLD"
+      ]
+    },
+    {
+      "postId": "5223e790-d730-4c4c-aef6-ecf9a6c66ac8",
+      "title": "Ultralight Modern Laptops: Mobile Engineering on High-Resolution Displays",
+      "expectedCategory": "technology",
+      "expectedSubject": "modern laptop",
+      "expectedFilename": "technology/technology_01_laptop.jpg",
+      "matchedImageId": "83b7fe4c-5c96-43d5-82fa-b0d2efba778b",
+      "matchedCategory": "technology",
+      "matchedSubject": "modern laptop",
+      "similarityScore": 0.9943,
+      "isCorrect": true,
+      "rejectionReasonsObserved": [
+        "CATEGORY_MISMATCH",
+        "SIMILARITY_BELOW_THRESHOLD"
+      ]
+    },
+    {
+      "postId": "7946da5e-d3c3-454d-b808-83a2d7cbe125",
+      "title": "Enterprise Cloud Architecture: Designing High-Density Server Racks",
+      "expectedCategory": "technology",
+      "expectedSubject": "server rack",
+      "expectedFilename": "technology/technology_02_server_rack.jpg",
+      "matchedImageId": "79721632-e49e-4d7b-bef2-f1adb1051a2c",
+      "matchedCategory": "technology",
+      "matchedSubject": "server rack",
+      "similarityScore": 0.9944,
+      "isCorrect": true,
+      "rejectionReasonsObserved": [
+        "CATEGORY_MISMATCH",
+        "SIMILARITY_BELOW_THRESHOLD"
+      ]
+    },
+    {
+      "postId": "79f50ad4-074d-4471-b6cc-92b45acbbbdf",
+      "title": "Autonomous Aerial Drones: Precision Brushless Motors and 4K Gimbal Stability",
+      "expectedCategory": "technology",
+      "expectedSubject": "aerial drone",
+      "expectedFilename": "technology/technology_08_drone.jpg",
+      "matchedImageId": "b0ed2d6a-35e2-4ec4-8fa1-f2c1ed2301b7",
+      "matchedCategory": "technology",
+      "matchedSubject": "aerial drone",
+      "similarityScore": 0.9941,
+      "isCorrect": true,
+      "rejectionReasonsObserved": [
+        "CATEGORY_MISMATCH",
+        "SIMILARITY_BELOW_THRESHOLD"
+      ]
+    },
+    {
+      "postId": "f6d94675-6a39-4187-b806-ca7ee969655b",
+      "title": "Raw Monolithic Forms: The Expressive Power of Brutalist Architecture",
+      "expectedCategory": "architecture",
+      "expectedSubject": "brutalist building",
+      "expectedFilename": "architecture/architecture_01_brutalist.jpg",
+      "matchedImageId": "f59438df-947a-4a74-9fca-e21a2b6adbfc",
+      "matchedCategory": "architecture",
+      "matchedSubject": "brutalist building",
+      "similarityScore": 0.9945,
+      "isCorrect": true,
+      "rejectionReasonsObserved": [
+        "CATEGORY_MISMATCH",
+        "SUBJECT_CONFLICT",
+        "SIMILARITY_BELOW_THRESHOLD"
+      ]
+    },
+    {
+      "postId": "8269bc46-2999-4f89-8cdf-74e51eb29904",
+      "title": "Sacred Heights: Flying Buttresses and Stone Spires in Gothic Cathedrals",
+      "expectedCategory": "architecture",
+      "expectedSubject": "gothic cathedral",
+      "expectedFilename": "architecture/architecture_02_cathedral.jpg",
+      "matchedImageId": "20c66530-a3c7-4d35-a1de-82e8e4cc3261",
+      "matchedCategory": "architecture",
+      "matchedSubject": "gothic cathedral",
+      "similarityScore": 0.9938,
+      "isCorrect": true,
+      "rejectionReasonsObserved": [
+        "CATEGORY_MISMATCH",
+        "SIMILARITY_BELOW_THRESHOLD"
+      ]
+    }
+  ]
+}

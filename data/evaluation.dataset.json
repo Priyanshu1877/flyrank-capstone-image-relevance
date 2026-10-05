@@ -1,0 +1,131 @@
+{
+  "version": "1.0",
+  "description": "Ground-truth labeled evaluation dataset for FlyRank Semantic Matching Engine",
+  "benchmarkTarget": {
+    "top1PrecisionFloor": 0.8,
+    "provisionalSimilarityThreshold": 0.72,
+    "confidenceFloor": 0.7
+  },
+  "posts": [
+    {
+      "id": "eval-post-01",
+      "title": "The Cunning Red Fox: Survival in Temperate Woodlands",
+      "slug": "cunning-red-fox-survival",
+      "body": "Red foxes are remarkably adaptable canines with vibrant reddish-orange fur, bushy tails, and acute hearing. In woodland clearings, foxes hunt small rodents, listen for rustling leaves, and navigate temperate forest edges with stealth and precision.",
+      "primaryCategory": "wildlife",
+      "expectedCategory": "wildlife",
+      "expectedSubject": "red fox",
+      "expectedImageFilename": "wildlife/wildlife_01_red_fox.jpg"
+    },
+    {
+      "id": "eval-post-02",
+      "title": "The Social Hierarchy and Winter Stalking of the Gray Wolf Pack",
+      "slug": "gray-wolf-pack-hierarchy",
+      "body": "Gray wolves are majestic apex predators that roam vast snow-covered wilderness landscapes. Operative pack dynamics, howling communication, and coordinated hunting allow timber wolves to thrive in northern coniferous forests and subarctic tundras.",
+      "primaryCategory": "wildlife",
+      "expectedCategory": "wildlife",
+      "expectedSubject": "gray wolf",
+      "expectedImageFilename": "wildlife/wildlife_02_gray_wolf.jpg"
+    },
+    {
+      "id": "eval-post-03",
+      "title": "Foraging Habits of North American Brown Bears During Salmon Runs",
+      "slug": "brown-bear-foraging-habits",
+      "body": "During peak summer months, brown bears congregate along rushing Alaskan rivers to catch migrating salmon. These massive omnivores store vital caloric reserves before winter denning, displaying immense strength and patience in riparian habitats.",
+      "primaryCategory": "wildlife",
+      "expectedCategory": "wildlife",
+      "expectedSubject": "brown bear",
+      "expectedImageFilename": "wildlife/wildlife_03_brown_bear.jpg"
+    },
+    {
+      "id": "eval-post-04",
+      "title": "Playful River Otters: Agility and Fishing in Freshwater Streams",
+      "slug": "playful-river-otters",
+      "body": "River otters are sleek semi-aquatic mammals renowned for their boundless energy, streamlined bodies, and water-repellent fur coats. They glide effortlessly through calm river currents, diving for freshwater fish and basking on sunlit mossy logs.",
+      "primaryCategory": "wildlife",
+      "expectedCategory": "wildlife",
+      "expectedSubject": "river otter",
+      "expectedImageFilename": "wildlife/wildlife_04_river_otter.jpg"
+    },
+    {
+      "id": "eval-post-05",
+      "title": "The Science of Pulling the Perfect Dark Espresso Shot",
+      "slug": "science-of-dark-espresso",
+      "body": "A pristine espresso requires calibrated grinding, optimal water temperature, and nine bars of pressure to extract sweet aromatic oils. The hallmark of exceptional extraction is a thick hazelnut crema floating atop concentrated dark brew.",
+      "primaryCategory": "culinary",
+      "expectedCategory": "culinary",
+      "expectedSubject": "espresso coffee",
+      "expectedImageFilename": "culinary/culinary_01_espresso.jpg"
+    },
+    {
+      "id": "eval-post-06",
+      "title": "Traditional Japanese Matcha: Bamboo Whisking and Green Tea Aesthetics",
+      "slug": "traditional-japanese-matcha",
+      "body": "Matcha ceremonies venerate stillness, mindfulness, and precise technique. Finely stone-ground ceremonial green tea powder is whisked with hot water using a bamboo chasen until a velvety jade-green microfoam blankets the ceramic bowl.",
+      "primaryCategory": "culinary",
+      "expectedCategory": "culinary",
+      "expectedSubject": "matcha tea",
+      "expectedImageFilename": "culinary/culinary_02_matcha.jpg"
+    },
+    {
+      "id": "eval-post-07",
+      "title": "The Secrets of Wood-Fired Neapolitan Pizza Fermentation",
+      "slug": "wood-fired-neapolitan-pizza",
+      "body": "Authentic Neapolitan pizza relies on high-hydration dough slowly fermented over forty-eight hours. Baked in a wood-fired dome oven at nine hundred degrees, the pie develops charred leopard spotting, bubbly crusts, and fragrant San Marzano tomato sauce.",
+      "primaryCategory": "culinary",
+      "expectedCategory": "culinary",
+      "expectedSubject": "neapolitan pizza",
+      "expectedImageFilename": "culinary/culinary_04_pizza.jpg"
+    },
+    {
+      "id": "eval-post-08",
+      "title": "Ultralight Modern Laptops: Mobile Engineering on High-Resolution Displays",
+      "slug": "ultralight-modern-laptops",
+      "body": "Modern portable laptops combine precision CNC aluminum unibody construction with energy-efficient silicon architecture. Engineers and designers demand tactile low-travel keyboards, vibrant high-refresh displays, and all-day battery life for remote productivity.",
+      "primaryCategory": "technology",
+      "expectedCategory": "technology",
+      "expectedSubject": "modern laptop",
+      "expectedImageFilename": "technology/technology_01_laptop.jpg"
+    },
+    {
+      "id": "eval-post-09",
+      "title": "Enterprise Cloud Architecture: Designing High-Density Server Racks",
+      "slug": "enterprise-cloud-server-racks",
+      "body": "Modern hyperscale datacenters organize compute blades, optic patch panels, and redundant power delivery into standardized server racks. Thermal cooling efficiency and cable hygiene are paramount to sustaining twenty-four-seven uptime.",
+      "primaryCategory": "technology",
+      "expectedCategory": "technology",
+      "expectedSubject": "server rack",
+      "expectedImageFilename": "technology/technology_02_server_rack.jpg"
+    },
+    {
+      "id": "eval-post-10",
+      "title": "Autonomous Aerial Drones: Precision Brushless Motors and 4K Gimbal Stability",
+      "slug": "autonomous-aerial-drones",
+      "body": "Advanced aerial drones rely on carbon-fiber rotors, high-torque brushless motors, and three-axis stabilized gimbals. They capture cinematic landscape sweeps, survey remote topography, and deliver real-time telemetry to ground operators.",
+      "primaryCategory": "technology",
+      "expectedCategory": "technology",
+      "expectedSubject": "aerial drone",
+      "expectedImageFilename": "technology/technology_08_drone.jpg"
+    },
+    {
+      "id": "eval-post-11",
+      "title": "Raw Monolithic Forms: The Expressive Power of Brutalist Architecture",
+      "slug": "expressive-brutalist-architecture",
+      "body": "Brutalist architecture celebrates exposed poured-in-place concrete, bold geometric cantilevered volumes, and unadorned structural honesty. Monolithic civic complexes and modernist university halls dominate urban skylines with dramatic shadow lines.",
+      "primaryCategory": "architecture",
+      "expectedCategory": "architecture",
+      "expectedSubject": "brutalist building",
+      "expectedImageFilename": "architecture/architecture_01_brutalist.jpg"
+    },
+    {
+      "id": "eval-post-12",
+      "title": "Sacred Heights: Flying Buttresses and Stone Spires in Gothic Cathedrals",
+      "slug": "sacred-heights-gothic-cathedrals",
+      "body": "Medieval European master masons designed gothic cathedrals with ribbed vaulting and external flying buttresses that allowed stone walls to soar skyward, framing colossal stained-glass rosette windows that bathe naves in celestial illumination.",
+      "primaryCategory": "architecture",
+      "expectedCategory": "architecture",
+      "expectedSubject": "gothic cathedral",
+      "expectedImageFilename": "architecture/architecture_02_cathedral.jpg"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Build & Coverage Output
+dist/
+coverage/
+*.tsbuildinfo
+
+# Environment & Secrets
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# Logs
+*.log
+logs/
+
+# Local Database & OS Artifacts
+*.db
+*.sqlite
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo

@@ -1,0 +1,83 @@
+# FlyRank AI Fluency Capstone Manifest
+# Project: AI Image Understanding & Content Matching Engine
+
+spec_version: '1.0'
+project:
+  name: 'flyrank-capstone-image-relevance'
+  title: 'AI Image Understanding & Content Matching Engine'
+  description: 'Backend system that extracts structured visual metadata, indexes semantic embeddings, ranks image candidates against articles, enforces tenant isolation, and applies a multi-gate mismatch guard.'
+  category: 'backend-ai'
+  phase: 'Phase 5 - Semantic Matching Engine & Mismatch Guard Completed'
+
+stack:
+  runtime: 'Node.js (>= 20)'
+  language: 'TypeScript (Strict Mode)'
+  framework: 'Express'
+  database: 'PostgreSQL'
+  validation: 'Zod'
+  ai_providers:
+    vision: 'Google Gemini 1.5/2.0 Flash (Free Tier / IVisionProvider interface)'
+    embedding: 'Google text-embedding-004 (768 dimensions / IEmbeddingProvider interface)'
+
+dataset:
+  status: 'Acquired, Verified, Ingested & Processed'
+  total_images: 48
+  categories:
+    - 'wildlife'
+    - 'culinary'
+    - 'technology'
+    - 'architecture'
+  license_policy: 'Permissive licenses only (Unsplash, Pexels, Wikimedia Commons) with attribution'
+
+matching:
+  initial_similarity_threshold: 0.720
+  calibrated_similarity_threshold: 0.720
+  provisional_status: 'Empirically calibrated on evaluation dataset'
+  measured_top1_precision: 1.00
+  evaluation_posts: 12
+  guard_gates:
+    - 'Vision confidence & quarantine gate'
+    - 'Category compatibility gate'
+    - 'Subject/entity conflict detection gate'
+    - 'Defensive cosine similarity calculation'
+    - 'Configurable similarity threshold gate'
+    - 'Candidate ranking and idempotent persistence'
+    - 'Human review feedback loop'
+
+security_and_governance:
+  tenant_isolation: true
+  idempotent_processing: true
+  ai_budget_guard: true
+
+constraints:
+  free_tier_only: true
+  min_images: 40
+  min_categories: 4
+  min_evaluation_posts: 10
+  target_top1_precision: 0.80
+
+commands:
+  setup: 'npm install'
+  db_migrate: 'npm run db:migrate'
+  dataset_validate: 'npm run dataset:validate'
+  dataset_ingest: 'npm run dataset:ingest'
+  start_worker: 'npm run worker'
+  typecheck: 'npm run typecheck'
+  lint: 'npm run lint'
+  format: 'npm run format:check'
+  test: 'npm test'
+  build: 'npm run build'
+  start_server: 'npm start'
+  evaluate: 'npm run benchmark'
+  verify_e2e: 'npm run verify:e2e'
+
+deliverables:
+  readme: 'README.md'
+  design_doc: 'docs/DESIGN.md'
+  architecture_doc: 'docs/ARCHITECTURE.md'
+  dataset_doc: 'data/README.md'
+  dataset_manifest: 'data/dataset.manifest.json'
+  manifest: 'capstone.yaml'
+  build_log: 'BUILDLOG.md'
+  evidence: 'EVIDENCE.md'
+  env_example: '.env.example'
